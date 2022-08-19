@@ -1,0 +1,44 @@
+*,*:before,*:after { box-sizing: border-box}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+body {
+    width:100%;
+	background-size: cover;
+    background-repeat:repeat;
+    background-position:center;
+    height:70vh ;
+    margin-bottom: 10px;
+}
+.service {
+    margin-top:50px;
+}
+.service h2,.second h2 {
+    text-align:center;
+    margin-bottom:50px;
+    font-family: sans-serif;
+}
+.col-sm-4 img {
+    border-radius:50%;
+}
+.col-sm-4 img,h3,p{
+    margin:50px;
+}
+#email h2 {
+    text-align:center;
+    margin-top:50px;
+}
+#email .col-8 {
+    font-size:24px;
+}
+footer .col-6 {
+    height:50px;
+    margin-top:80px;
+    background-color:#000;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    line-height:50px;
+}
+
+
